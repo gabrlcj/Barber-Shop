@@ -4,6 +4,8 @@
     <h4>Site fictício de uma barbearia</h4>
 </div>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2af3d4b7-070c-4630-b92d-2879ad52016b/deploy-status)](https://app.netlify.com/sites/barber-shop-example/deploys)
+
 ---
 
 <p align='center'>
