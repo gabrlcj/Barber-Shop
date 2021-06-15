@@ -1,18 +1,18 @@
 <div align='center'>
     <img src="images/logo.png" alt="logo Barber Shop">
     <h1>🧔🏽 Barber Shop 🧔🏽</h1>
-    <h3>Site fictício de uma barbearia</h3>
+    <h4>Site fictício de uma barbearia</h4>
 </div>
 
 ---
 
 <p align='center'>
     <b>
-        <a href='#sobre'>Sobre</a>
-        <a href='#features'>Features</a>
-        <a href='#imagens'>Imagens</a>
-        <a href='#tecnologias'>Tecnologias</a>
-        <a href='#autor'>Autor</a>
+        <a href='#sobre-'>Sobre</a> •
+        <a href='#features-'>Features</a> •
+        <a href='#imagens-'>Imagens</a> •
+        <a href='#tecnologias-'>Tecnologias</a> •
+        <a href='#autor-'>Autor</a>
     </b>
 </p>
 
@@ -24,7 +24,7 @@
 </h4>
 
 <div align='center'>
-    * Barra de navegação:
+    <b>Barra de navegação:</b>
     <img src="img-readme/header.png" alt="barrade navegação">
 </div>
 
@@ -42,17 +42,17 @@
 ## Imagens 📸
 
 <div align='center'>
-    * Seção Home:
+    <b>Seção Home:</b>
     <img width="900px" src="img-readme/home%20page.png" alt="página Home">
-    * Seção Sobre:
+    <b>Seção Sobre:</b>
     <img width="900px" src="img-readme/sobre-page.png" alt="página Sobre">
-    * Seção Serviços:
+    <b>Seção Serviços:</b>
     <img width="900px" src="img-readme/serviços-page.png" alt="página Serviços">
-    * Seção Agendamento:
+    <b>Seção Agendamento:</b>
     <img width="900px" src="img-readme/agendamento.png" alt="página Agendamento">
-    * Seção Galeria:
+    <b>Seção Galeria:</b>
     <img width="900px" src="img-readme/galeria.png" alt="página Galeria">
-    * Seção Contato:
+    <b>Seção Contato:</b>
     <img width="900px" src="img-readme/contato.png" alt="página Contato">
 </div>
 
