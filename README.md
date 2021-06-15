@@ -9,7 +9,7 @@
 <p align='center'>
     <b>
         <a href='#sobre-'>Sobre</a> •
-        <a href='#features-'>Features</a> •
+        <a href='#features-%EF%B8%8F'>Features</a> •
         <a href='#imagens-'>Imagens</a> •
         <a href='#tecnologias-'>Tecnologias</a> •
         <a href='#autor-'>Autor</a>
@@ -24,7 +24,7 @@
 </h4>
 
 <div align='center'>
-    <b>Barra de navegação:</b>
+    <b>Barra de navegação:</b> <br>
     <img src="img-readme/header.png" alt="barrade navegação">
 </div>
 
@@ -42,17 +42,17 @@
 ## Imagens 📸
 
 <div align='center'>
-    <b>Seção Home:</b>
+    <b>Seção Home:</b> <br>
     <img width="900px" src="img-readme/home%20page.png" alt="página Home">
-    <b>Seção Sobre:</b>
+    <b>Seção Sobre:</b> <br>
     <img width="900px" src="img-readme/sobre-page.png" alt="página Sobre">
-    <b>Seção Serviços:</b>
+    <b>Seção Serviços:</b> <br>
     <img width="900px" src="img-readme/serviços-page.png" alt="página Serviços">
-    <b>Seção Agendamento:</b>
+    <b>Seção Agendamento:</b> <br>
     <img width="900px" src="img-readme/agendamento.png" alt="página Agendamento">
-    <b>Seção Galeria:</b>
+    <b>Seção Galeria:</b> <br>
     <img width="900px" src="img-readme/galeria.png" alt="página Galeria">
-    <b>Seção Contato:</b>
+    <b>Seção Contato:</b> <br>
     <img width="900px" src="img-readme/contato.png" alt="página Contato">
 </div>
 
