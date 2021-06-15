@@ -2,7 +2,7 @@
     <img src="images/logo.png" alt="logo Barber Shop">
     <h1>🧔🏽 Barber Shop 🧔🏽</h1>
     <h4>Site fictício de uma barbearia</h4>
-    <a href="https://barber-shop-example.netlify.app/">Link do site</a>
+    <a href="https://barber-shop-example.netlify.app/">Link do site Barber Shop</a>
 </div>
 
 ---
