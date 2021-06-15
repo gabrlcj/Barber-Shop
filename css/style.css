@@ -1,0 +1,455 @@
+:root {
+    --color-primary: #917758;
+    --color-secondary: #3c2915;
+    --color-primary-light: #f5eee6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1120px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+#backToTop {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border: 3px solid var(--color-secondary);
+    border-radius: 100%;
+    background-color: var(--color-primary);
+    color: var(--color-primary-light);
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 3px 3px 2px var(--color-secondary);
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+/************************* HOME / NAVBAR / CONTENT *************************
+***************************************************************************/
+
+.home {
+    position: relative;
+    background-image: url(../images/bg-home.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.home .header {
+    padding: 30px 0;
+}
+
+.home .header .navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.home .header .navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.home .header .navbar ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+}
+
+.logo {
+    margin: 0 30px;
+}
+
+.home .header .navbar ul li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 20px;
+}
+
+.home .header .navbar ul li a:hover {
+    border-bottom: 1px ridge var(--color-primary);
+    color: var(--color-primary);
+}
+
+/************************* HOME / HEADER BANNER ****************************
+***************************************************************************/
+
+.banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 270px;
+    width: 770px;
+    margin-top: -100px;
+    margin-left: -385px;
+    color: white;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 120px;
+}
+
+.banner span {
+    display: block;
+}
+
+.banner .span1 {
+    color: var(--color-primary);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 15px;
+}
+
+.banner .span2 {
+    margin-bottom: 15px;
+    word-spacing: 5px;
+}
+
+/************************* ABOUT / HORÁRIOS ********************************
+***************************************************************************/
+
+.about {
+    background-color: var(--color-primary);
+}
+
+.about .container {
+    display: flex;
+}
+
+.about .timing {
+    position: relative;
+    top: -50px;
+    width: 34%;
+    background-image: url(../images/brush-big.jpg);
+    padding: 20px;
+}
+
+.about .timing .overlay {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px 20px;
+}
+
+.tesoura {
+    width: 50px;
+}
+
+.about .timing .overlay h3 {
+    color: var(--color-primary);
+    text-transform: uppercase;
+    border-bottom: 1px ridge var(--color-primary);
+    font-size: 40px;
+    width: fit-content;
+    margin: 0 auto 30px auto;
+}
+
+.about .timing .text {
+    margin: 10px 0;
+}
+
+.about .timing .text:after {
+    content: '•';
+    display: block;
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+}
+
+.about .timing .text:last-of-type:after {
+    content: '|';
+}
+
+.about .timing .text h4 {
+    color: rgb(150, 150, 150);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.about .timing span {
+    color: white;
+    font-size: 15px;
+    display: block;
+}
+
+/************************* ABOUT / HISTORY *********************************
+***************************************************************************/
+
+.about .history {
+    width: 66%;
+    color: white;
+    margin-left: 7%;
+    margin-top: 100px;
+}
+
+.about .history h2 {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.about .history h2:after {
+    display: block;
+    content: '';
+    width: 150px;
+    height: 5px;
+    background-color: #a38f78;
+    margin: 20px 0;
+}
+
+.about .history .text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .history .text p {
+    margin-bottom: 20px;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+/************************ SERVICES / SERVIÇOS ******************************
+***************************************************************************/
+
+.services {
+    padding: 100px 0;
+    text-align: center;
+    background-color: var(--color-primary-light);
+}
+
+.services h2 {
+    color: var(--color-secondary);
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.services .boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.services .boxes .box {
+    border: 3px ridge var(--color-primary);
+    margin: 30px;
+    padding: 60px 30px;
+}
+
+.services .boxes .box h4 {
+    color: var(--color-secondary);
+    margin-top: 30px;
+}
+
+.services .boxes .box p {
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+/******************** APPOINTMENT / AGENDE UM HORARIO **********************
+***************************************************************************/
+
+.appointment {
+    padding: 100px 0;
+    background-color: var(--color-primary);
+    height: 100vh;
+    background-image: url(../images/chair-ic.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 300px;
+}
+
+.appointment h2 {
+    color: var(--color-primary-light);
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.appointment img {
+    display: block;
+    margin: 0 auto;
+}
+
+.appointment form {
+    margin-top: 80px;
+}
+
+.appointment fieldset {
+    border: none;
+}
+
+.appointment .personal-data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.appointment .input-wrapper {
+    width: 100%;
+    margin-right: 50px;
+}
+
+.appointment .input-wrapper:last-of-type {
+    margin-right: 0;
+}
+
+.appointment label {
+    display: block;
+    color: var(--color-primary-light);
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+.appointment .personal-data input,
+.appointment .personal-data select,
+.appointment textarea {
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.appointment button {
+    background-color: var(--color-secondary);
+    color: white;
+    padding: 12px 40px;
+    border: none;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.appointment button:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+/********************** GALLERY / GALERIA DE FOTOS *************************
+***************************************************************************/
+
+.gallery {
+    padding: 100px 0;
+    background-color: var(--color-primary-light);
+    height: 100vh;
+}
+
+.gallery h2 {
+    color: var(--color-secondary);
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.gallery img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gallery .gallery-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 85vh;
+    margin: 50px auto;
+}
+
+.gallery .gallery-wrapper div {
+    border: 10px ridge var(--color-primary);
+    margin: 5px;
+    width: 33%;
+}
+
+.gallery .gallery-wrapper div img {
+    width: 100%;
+}
+
+/************************ LOCATION / HEAD E MAP  ***************************
+***************************************************************************/
+
+.location {
+    padding: 100px 0;
+    background: url(../images/bg-location.jpg);
+    background-size: cover;
+}
+
+.location .head {
+    display: flex;
+    justify-content: space-between;
+    background-color: #191919;
+    padding: 50px;
+    width: 100%;
+}
+
+.location .head .info {
+    display: flex;
+    align-items: center;
+}
+
+.location .head .info .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--color-primary);
+    border-radius: 100%;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+}
+
+.location .head .info .icon:hover {
+    background-color: var(--color-primary-light);
+    opacity: 0.5;
+}
+
+.location .head .info .text span {
+    display: block;
+    font-size: 14px;
+}
+
+.location .head .info .text span:first-child {
+    color: silver;
+}
+
+.location .head .info .text span:last-child {
+    color: white;
+}
+
+.location .map {
+    width: 100%;
+}
+
+.location .map iframe {
+    width: 100%;
+}
+
+/************************ FOOTER / RODAPÉ PÁGINA  **************************
+***************************************************************************/
+
+footer {
+    background-color: var(--color-primary);
+    color: var(--color-primary-light);
+    font-size: 16px;
+    text-shadow: 3px 3px 2px var(--color-secondary);
+    text-align: center;
+    padding: 40px 0 20px 0;
+}
