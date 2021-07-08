@@ -1,11 +1,10 @@
 <div align='center'>
     <img src="images/logo.png" alt="logo Barber Shop">
-    <h1>🧔🏽 Barber Shop 🧔🏽</h1>
-    <h4>Site fictício de uma barbearia</h4>
+    <h4>Site fictício de uma barbearia</h4><br>
     <a href="https://barber-shop-example.netlify.app/">Link do site Barber Shop</a>
 </div>
 
----
+<br>
 
 <p align='center'>
     <b>
